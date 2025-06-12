@@ -39,11 +39,22 @@ def ventas_por_tiquete(ventas_tiquete, precios_tiquetes):
 
     return recaudo_por_tiquete
 
-
-
 # Encontrar el tipo de tiquete más vendido
 mas_vendido = list(precios.keys())[ventas.index(max(ventas))]
 
 print(promedio_ventas(ventas_total, precios))
 print(precios)
+print(mas_vendido)
+
+# Ejemplos
+
+# Agregar un nuevo tipo de tiquete
+precios["3ra_edad"] = 2000
+
+# Calcular el promedio de ventas
+ventas.append(23)
+print(promedio_ventas(ventas_total, precios))
+
+# Mas vendido actualizado
+mas_vendido = list(precios.keys())[ventas.index(max(ventas))]
 print(mas_vendido)

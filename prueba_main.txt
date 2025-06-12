@@ -1,0 +1,69 @@
+=== Metro de Medellín ===
+1. Ver estaciones
+2. Ver pasajeros por hora
+3. Calcular total de ventas
+4. Ver recaudo por tipo de tiquete
+5. Salir
+Seleccione una opción: 1
+
+//Return
+San Antonio
+Alpujarra
+Exposiciones
+Industriales
+Poblado
+Aguacatala
+Ayurá
+Envigado
+Itagüí
+Sabaneta
+La Estrella
+
+=== Metro de Medellín ===
+1. Ver estaciones
+2. Ver pasajeros por hora
+3. Calcular total de ventas
+4. Ver recaudo por tipo de tiquete
+5. Salir
+Seleccione una opción: 2
+
+//Return
+Pasajeros por hora: [100, 350, 500, 320, 150, 400, 350]
+
+=== Metro de Medellín ===
+1. Ver estaciones
+2. Ver pasajeros por hora
+3. Calcular total de ventas
+4. Ver recaudo por tipo de tiquete
+5. Salir
+Seleccione una opción: 3
+
+//Return
+Recaudo total: $133100
+
+=== Metro de Medellín ===
+1. Ver estaciones
+2. Ver pasajeros por hora
+3. Calcular total de ventas
+4. Ver recaudo por tipo de tiquete
+5. Salir
+Seleccione una opción: 4
+
+//Return
+Recaudo por tipo de tiquete:
+$Unitario: 26500
+$Integrado: 17000
+$Estudiante: 19600
+$Turista: 24000
+$3ra_edad: 46000
+
+=== Metro de Medellín ===
+1. Ver estaciones
+2. Ver pasajeros por hora
+3. Calcular total de ventas
+4. Ver recaudo por tipo de tiquete
+5. Salir
+Seleccione una opción: 5
+
+//Return
+¡Hasta luego!

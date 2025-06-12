@@ -33,3 +33,17 @@ print(encontrar_hora_pico(pasajeros_por_hora))
 print(promedio_pasajeros(suma, pasajeros_por_hora))
 print(menos_pasajeros(pasajeros_por_hora))
 print(mas_300_pasajeros(pasajeros_por_hora))
+
+# Ejemplos
+
+pasajeros_por_hora.append(400)
+pasajeros_por_hora.append(350)
+
+# Promedio de pasajeros
+print(promedio_pasajeros(suma, pasajeros_por_hora))
+
+# Hora con menos pasajeros
+print(menos_pasajeros(pasajeros_por_hora))
+
+# Horas con mas de 300 pasajeros
+print(mas_300_pasajeros(pasajeros_por_hora))

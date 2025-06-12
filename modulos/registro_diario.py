@@ -46,3 +46,19 @@ def hora_pico_estacion(matriz):
 print(agregar_hora(registro_pasajeros))
 print(promedio_hora(registro_pasajeros))
 print(hora_pico_estacion(registro_pasajeros))
+
+# Ejemplo
+
+# Agregar hora
+def agregar_hora_2(matriz):
+    for estacion in matriz:
+        estacion.append(300)
+    return matriz
+
+print(agregar_hora_2(registro_pasajeros))
+
+# Promedio de pasajeros por hora actualizado
+print(promedio_hora(registro_pasajeros))
+
+# Hora pico actualizada
+print(hora_pico_estacion(registro_pasajeros))
