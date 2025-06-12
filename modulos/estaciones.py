@@ -37,7 +37,9 @@ def buscar_estacion(buscar, lista_estaciones):
 # Llamar a la funcion e imprimir
 buscar_estacion(estacion_buscar, estaciones_linea_a)
 
-# Pruebas
+
+# Pruebas y Ejemplos
+
 estaciones_linea_a.append("Itagüí")
 estaciones_linea_a.append("Sabaneta")
 estaciones_linea_a.append("La Estrella")
